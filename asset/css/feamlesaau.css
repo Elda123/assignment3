@@ -1,0 +1,49 @@
+
+
+body {
+    background-color: #fbf9f4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #525251;
+}
+
+nav ul {
+    border-bottom: 2px solid #e13d3d;
+    padding-bottom: 20px;
+    background-color: #fbf9f4;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+#id1 li a {
+    padding-left: 30px;
+    color: black;
+}
+
+#id1 li a:hover {
+    color: #e13d3d;
+}
+
+.row3 {
+    margin-top: 50px;
+}
+.r3c1{
+    text-align: justify;
+}
+.r4c1{
+    text-align: center;
+    margin-top: 100px;
+}
+a {
+    color: #e13d3d;
+}
+
+a:hover{
+    color: #e13d3d;
+    
+}
+.elda{
+    color:#525251 ;
+}

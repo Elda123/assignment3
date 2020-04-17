@@ -8,60 +8,7 @@
     <link rel="shortcut icon" href="asset/image/icon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-
     Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <style>
-        .row {
-            border: 1px solid red;
-        }
-
-        body {
-            background-color: #fbf9f4;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #525251;
-            font-size: 14px;
-            font-weight: 545;
-        }
-
-        nav ul {
-            border-bottom: 2px solid #e13d3d;
-            padding-bottom: 20px;
-            background-color: #fbf9f4;
-        }
-
-        .icon {
-            width: 15px;
-            height: 15px;
-        }
-        #id1 li a{
-            padding-left: 30px;
-            color: black;
-        }
-        #id1 li a:hover{
-            color: #e13d3d;
-        }
-        .im {
-            width: 650px;
-        }
-
-        .r2c1 ,.r8c1{
-            background-image: url("asset/image/about1.jpg");
-            height: 140px;
-            color: white;
-            text-align: center;
-            padding-top: 45px;
-            font-size: 35px;
-        }
-
-        .row3 {
-            margin-top: 30px;
-        }
-
-        .row4,
-        .row5,
-        .row6,
-        .row7 {
-            margin-top: 30px;
-        }
-    </style>
+   <link rel="stylesheet" href="asset/css/contact.css">
 </head>
 
 <body>
@@ -113,7 +60,7 @@
             </div>
         </div>
         <div class="row justify-content-center row4">
-            <div class="col-7 r4c1">
+            <div class="col-md-7 col-sm-2 r4c1">
                 <img src="asset/image/frndship.jpg" class="im">
             </div>
 
@@ -144,16 +91,63 @@
                 reading this
             </div>
         </div>
+    </div> <br> <br>
+    <hr color="#e13d3d">
     </div>
-        <hr color="#e13d3d">
-    </div>
-        <div class="row row8">
-            <div class="col-12 r8c1">
-                Get in touch
-            </div>
+    <div class="row row8">
+        <div class="col-12 r8c1">
+            Get in touch
         </div>
     </div>
-    
+    <div class="row  justify-content-around row9">
+        <div class="col-5 r9c1">
+            <h2>Hi there!</h2>
+
+        </div>
+        <div class="col-6 r9c2">
+
+
+
+            <form action="mailto:se.elda.girma@gmail.com" enctype="utf-8 me" method="POST">
+                <div class="form-group">
+                    <input type="text" pattern="[A-Za-z]{2,9}" title="use english alphabets" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <textarea name="detail" id="" cols="30" rows="10" placeholder="message"></textarea>
+                </div>
+                <div class="form-group"><input type="submit" value="send"></td>
+                </div>
+
+
+                <img src="asset/image/twitter2.png" width="35" height="35"><a href="https://twitter.com/EldaGirma"
+                    target="_ blank">
+                    &nbsp;&nbsp; DM me</a> <br>
+                <img src="asset/image/keybase.png" width="35" height="35"><a href="https://keybase.io/"
+                    target="_ blank"> &nbsp;&nbsp; DM
+                    me</a> 
+
+        </div>
+
+    </div>
+    <div class="row justify-content-center footer">
+        <div class="col-4 row10col1 ">
+            <p>LICENSE: CC-BY-SA </p>
+            <img src="asset/image/cc.png" width=60 align="center"> <br>
+            &copy;Elda Girma
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
