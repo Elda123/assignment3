@@ -1,16 +1,24 @@
 
 body {
-    background-color: #fbf9f4;
+    background-color: #f0f7fa;
     font-family: Arial, Helvetica, sans-serif;
     color: #525251;
 }
+.navbar{
+    margin-top: 20px;
 
-nav ul {
-    border-bottom: 2px solid #e13d3d;
-    padding-bottom: 20px;
-    background-color: #fbf9f4;
 }
-
+nav ul {
+    padding-bottom: 20px;
+    background-color: #f0f7fa;
+}
+h1{
+    font-weight: 400;
+    letter-spacing: .04em;
+    color: #172a3a;
+    font-family: lora,sans-serif;
+    line-height: 1.25;
+}
 .icon {
     width: 15px;
     height: 15px;
@@ -30,21 +38,28 @@ nav ul {
     margin-top: 200px;
     text-align: center;
 }
+.elda{
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding-left: 55px;
+    background-color: #f0f7fa;
+}
 .im{
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 90px;
 }
 #id1 li a{
     padding-left: 30px;
     color: black;
 }
 #id1 li a:hover{
-    color: #e13d3d;
+    color: #06805E;
+    text-decoration:underline;
 }
 a{
     color: #525251;
 }
 a:hover{
-    color: #e13d3d;
+    color: #06805E;
     text-decoration: none;
 }
