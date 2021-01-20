@@ -1,18 +1,21 @@
 
 body {
-    background-color: #fbf9f4;
     font-family: Arial, Helvetica, sans-serif;
     color: #525251;
     font-size: 14px;
     font-weight: 545;
+    background-color: #f0f7fa;
+    
 }
 
+.navbar{
+    margin-top: 20px;
+
+}
 nav ul {
-    border-bottom: 2px solid #e13d3d;
     padding-bottom: 20px;
-    background-color: #fbf9f4;
+    background-color: #f0f7fa;
 }
-
 .icon {
     width: 15px;
     height: 15px;
@@ -22,10 +25,11 @@ nav ul {
     padding-left: 30px;
     color: black;
 }
-
 #id1 li a:hover {
-    color: #e13d3d;
+    color: #06805E;
+    text-decoration:underline;
 }
+
 .row10col1 {
     margin-top: 200px;
     text-align: center;
@@ -35,15 +39,17 @@ nav ul {
 .im {
     width: 650px;
 }
-
+.row2{
+    padding-top: 25px;
+}
 .r2c1,
 .r8c1 {
-    background-image: url("../image/about1.jpg");
-    height: 140px;
-    color: white;
+    background-image:url("../image/supplies1.jpg");
+    height: 290px;
+    color: #f8f8f2;
     text-align: center;
-    padding-top: 45px;
-    font-size: 35px;
+    padding-top: 115px;
+    font-size: 2.25rem;
 }
 
 
@@ -64,5 +70,20 @@ nav ul {
 }
 
 a {
-    color: #e13d3d;
+    color: #525251;
+}
+
+a:hover{
+    color: #06805E;
+    text-decoration: none;
+}
+h1{
+    font-weight: 400;
+    letter-spacing: .04em;
+}
+.elda{
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding-left: 55px;
+    background-color: #f0f7fa;
 }
