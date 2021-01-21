@@ -3,10 +3,10 @@
             background-color: #f0f7fa;
             font-family: Arial, Helvetica, sans-serif;
             color: #525251;
+            font-size: larger;
         }
         .navbar{
             margin-top: 20px;
-
         }
 
         nav ul {
@@ -44,10 +44,12 @@
         .r2c2r2c2 ul {
             list-style-type: none;
         }
-
+.image1{
+    height: 270px;
+}
         .image {
             height: 300px;
-            width: 100%;
+            width: 100%;            
         }
 
         .row4col1 {
@@ -105,4 +107,7 @@
         .carousel-caption {
             font-size: xx-large;
             padding-bottom: 90px;
+        }
+        .icons{
+            color: #06805E;
         }
