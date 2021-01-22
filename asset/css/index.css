@@ -26,11 +26,11 @@
 
         .r2c2r1 {
             text-align: left;
-            padding-left: 85px;
+            padding-left: 5px;
         }
 
         .r2c2r2 {
-            margin-top: 55px;
+            margin-top: 85px;
         }
 
         .r2c2r2c1 {
@@ -51,7 +51,9 @@
             height: 300px;
             width: 100%;            
         }
-
+.row3{
+    width: 100%;
+}
         .row4col1 {
             margin-top: 30px;
             text-align: center;
